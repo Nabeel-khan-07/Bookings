@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.title{
+    color: chartreuse;
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1 rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+}
+
+.image{
+    margin-top: 10px;
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour_info{
+    margin: 20px 5px;
+}
+
+.tour_price{
+    font-size: 1.3 rem ;
+    color: #1faa1f;
+}
+
+.btn1{
+    justify-content: space-around;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    color:blue;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.refresh{
+    margin: 300px 620px;
+}
+
+.btn-white{
+    margin-left: 35px;
+    border:1px solid red;
+    border-radius: 5px;
+    width: 90px;
+}
